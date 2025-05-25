@@ -11,11 +11,11 @@ age = int(input("How old are you? "))
 
 # checks if the user age is greater or equals to 18 before printing out the message.
 if age >= 18:
-    print("Congratulations! You are eligible to vote. Go make a difference!")
+    print("Congratulations🎉🥳👏! You are eligible to vote. Go make a difference!")
 # checks if the user age is less than 18, then does a calculation to find the age gap still needed to vote before printing out the message.
 elif age < 18:
     # gap holds the user age difference from the required 18 to vote
     gap =  18 - age
-    print("Oops! You’re not eligible yet. But hey, only %d more years to go!" %(gap)
+    print("😅Oops! You’re not eligible yet. But hey, only %d more years to go😊🌟!" %(gap)
 )
     
